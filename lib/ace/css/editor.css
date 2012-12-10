@@ -93,6 +93,7 @@
     resize: none;
     outline: none;
     overflow: hidden;
+    font: inherit;
 }
 
 .ace_text-input.ace_composition {
@@ -102,6 +103,11 @@
     opacity: 1;
     border: solid lightgray 1px;
     margin: -1px
+}
+
+.ace_dashed-underline {
+    border-bottom: 1px dashed black;
+    position: absolute;
 }
 
 .ace_layer {
